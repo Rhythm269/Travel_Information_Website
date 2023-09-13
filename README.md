@@ -19,6 +19,8 @@ server: "localhost8080"
 username: "root"
 password: ""
 database: "trip"
+
+Screenshots of the implemented point mentioned above.
 ![Screenshot (63)](https://github.com/Rhythm269/Travel_Information_Website/assets/92662885/347fb720-e460-4966-b2bd-80f328f78d6c)
 ![Screenshot (64)](https://github.com/Rhythm269/Travel_Information_Website/assets/92662885/89f004b9-bd21-4776-bca2-b1176a446439)
 ![Screenshot (66)](https://github.com/Rhythm269/Travel_Information_Website/assets/92662885/46df69ee-fcee-4499-977b-c42f2d98570d)
