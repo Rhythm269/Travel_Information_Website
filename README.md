@@ -34,3 +34,4 @@ Screenshots of the implemented point mentioned above.
 ![Screenshot (77)](https://github.com/Rhythm269/Travel_Information_Website/assets/92662885/4d40de1c-9a8c-4c90-bf95-2ca2232ac456)
 Submit button Name changed.
 ![Screenshot (79)](https://github.com/Rhythm269/Travel_Information_Website/assets/92662885/6704d7f8-3d19-406c-b684-53abe5f42226)
+![Screenshot (80)](https://github.com/Rhythm269/Travel_Information_Website/assets/92662885/6a0226f7-bb7d-482a-b735-3d6712050496)
