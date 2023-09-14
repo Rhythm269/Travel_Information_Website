@@ -68,9 +68,9 @@ if (isset($_POST['name'])){ // this line means if anyone enters the name and sub
 </head>
 <body>
     <img src="bg.jpg" class="bg" alt="The SCINDIA SCHOOL">
-    <div class="container">
+    <div class="container"> 
         <h2> The Scindia School Australia Travel Form</h2><br>
-        <p>Please enter your details and submit the form to confirm your participation in the trip.</p>
+        <p id="top_tx">Please enter your details and submit the form to confirm your participation in the trip.</p>
          <?php
             if($insert == true)
             echo "<p class='success'>Thank You. Your form has been submitted.</p>";
@@ -80,15 +80,28 @@ if (isset($_POST['name'])){ // this line means if anyone enters the name and sub
          ?>
         <form action="index.php" method="post">
 
-            <input type="text" name="name" id="name" placeholder="Enter your name.">
-            <input type="text" name="age" id="age" placeholder="Enter your age.">
-            <input type="text" name="gender" id="gender" placeholder="Enter your gender.">
-            <input type="email" name="email" id="email" placeholder="Enter your email.">
-            <input type="phone" name="phone" id="phone" placeholder="Enter your phone number.">
+            <label for="name" id="fst">Enter Name </label>
+            <!-- This for attribute value must match the id attribute value of the <input> element you want to associate the label with. -->
+            <input type="text" name="name" id="name" placeholder="Enter your name" >
+            <label for="age">Enter Age </label>
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <label for="gender">Select Gender</label>
+            <select name="gender" id="gender" placeholder="Select your gender">
+                <option disabled selected value="">-- Select Gender --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="email">Enter Email </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <label for="phone">Enter Phone </label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+            <p id="charLeft" ></p>
 
-            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here."></textarea>
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
 
-            <button class="btn" type="submit">Submit</button>
+            <button class="btn" type="submit" id="Btnsubmit">BtnSubmit</button>
+            <!-- button#fig creates a button with id = fig  (#name for id creation)-->
 
         </form>
         
