@@ -15,7 +15,7 @@
     border: 2px white;
     cursor: pointer;
     border-radius: 5px;
-    width: 73px;
+    width: 81px;
 }
 .container{
     max-width: 80%;
@@ -33,7 +33,7 @@ h2{
     font-family: 'Belanosima', sans-serif;
 }
 
-p{
+#top_tx{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -56,11 +56,12 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: left;
 }
 
 .bg{
     width: 100%;
-    height: 100%;
+    height: 115%;
     position: absolute;
     z-index: -1;
     opacity: 0.8;
@@ -68,4 +69,37 @@ form{
 
 .success{
     color: #9cff9c;
+}
+
+label{
+    margin-right: 814px;
+    color: #000000;
+    font-style: italic;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#fst{
+    margin-top: 22px;
+    margin-right: 814px;
+    color: #000000;
+    font-style: italic;
+}
+
+#gender{
+    width: 80%;
+    margin: 11px auto;
+    padding: 6px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+#charLeft{
+    text-align: left;
+    font-size: small;
+    color: red;
+    margin-right: 809px;
+    font-family: 'Roboto', sans-serif;
 }
